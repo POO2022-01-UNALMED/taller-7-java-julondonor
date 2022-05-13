@@ -39,7 +39,7 @@ public class Tesis extends Escrito{
 	public String toString() {
 		String s="";
 		s += this.getOrigen()+"\n"+this.getTitulo()+"\n"+this.getAutor()+"\n"+this.getPaginas()+"\n";
-		s += idea+"\n"+argumentos+"\n"+conclusion+"\n"+referencias;
+		s += idea+"\n"+argumentos.length+"\n"+conclusion+"\n"+referencias;
 		return s;
 	}
 	
