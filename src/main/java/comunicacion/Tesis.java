@@ -29,9 +29,9 @@ public class Tesis extends Escrito{
 	public String getInterpretacion() {return this.interpretacion;}
 	public void setInterpretacion(String interpretacion) {this.interpretacion = interpretacion;}
 	
-	public int palabrasTotales(int factor) {
-		factor = 5;
-		return getPaginas()*factor;
+	public int palabrasTotales(int mult) {
+		int factor = 5;
+		return getPaginas()*factor*mult;
 	}
 	public String interpretacion() {
 		return this.interpretacion;

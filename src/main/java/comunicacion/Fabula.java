@@ -23,9 +23,9 @@ public class Fabula extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	
-	public int palabrasTotales(int factor) {
-		factor = 1;
-		return getPaginas()*factor;
+	public int palabrasTotales(int mult) {
+		int factor = 1;
+		return getPaginas()*factor*mult;
 	}
 	public String interpretacion() {
 		return this.interpretacion;
